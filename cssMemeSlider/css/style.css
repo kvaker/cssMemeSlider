@@ -50,6 +50,11 @@
     line-height: 0;
     height: 38.75rem;
 }
+.slides_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 #slides .frame {
     width: 25%;
@@ -69,15 +74,21 @@
 }
 
 #slides .frame_2 {
-    background: #F90;
+    display: flex;
+    flex-direction: column;
+    background: #000000;
 }
 
 #slides .frame_3 {
-    background: #606;
+    display: flex;
+    flex-direction: column;
+    background: #000000;
 }
 
 #slides .frame_4 {
-    background: #C00;
+    display: flex;
+    flex-direction: column;
+    background: #000000;
 }
 
 #controls {
